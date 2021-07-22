@@ -1,0 +1,19 @@
+.flexbox-container img:hover{
+    box-shadow: 0px 10px 50px rgb(92, 158, 92);
+}
+
+.container{
+    border:  1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flexbox-container{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
